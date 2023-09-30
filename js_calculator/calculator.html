@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bs5/boot.css">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+	<title>Calculator</title>
+</head>
+<body>
+	<div class="container mt-5">
+	  <div class=" row justify-content-center shadow mt-5">
+		  <div class="col-md-8 mt-5">
+		  	<div class="card shadow mt-3 ms-4 mb-5">
+		  		<div class="row mt-3 ">
+		  			<div class="col-md-12">
+		  				<input type="text" id="num" class="screen">
+		  			</div>
+		  		</div><br>
+					<div class="buttons ms-2">
+						<button type="button" class="btn btn-warning font-button" data-num="+">+</button>
+						<button type="button" class="btn btn-warning font-button" data-num="-">-</button>
+						<button type="button" class="btn btn-warning font-button" data-num="/">/</button>
+						<button type="button" class="btn btn-warning font-button" data-num="*">*</button>
+
+						<button type="button" class="btn btn-primary font-button" data-num="9">9</button>
+						<button type="button" class="btn btn-primary font-button" data-num="8">8</button>
+						<button type="button" class="btn btn-primary font-button" data-num="7">7</button>
+						<button type="button" class="btn btn-primary font-button" data-num="6">6</button>
+						<button type="button" class="btn btn-primary font-button" data-num="5">5</button>
+						<button type="button" class="btn btn-primary font-button" data-num="4">4</button>
+						<button type="button" class="btn btn-primary font-button" data-num="3">3</button>
+						<button type="button" class="btn btn-primary font-button" data-num="2">2</button>
+						<button type="button" class="btn btn-primary font-button" data-num="1">1</button>
+						<button type="button" class="btn btn-primary font-button" data-num="0">0</button>
+						<button type="button" class="btn btn-primary font-button" data-num=".">.</button>
+
+						<button type="button"  class="equals text-light">=</button>
+						<button type="button" class="btn btn-danger btn-clear font-button"><b>C</b></button>
+					</div><br><br>
+					<h1 id="result"></h1>
+		  	</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/calculator.js"></script>
+</body>
+</html>	

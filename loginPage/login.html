@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/login.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/fontawesome-all.css">
+		<link href="//fonts.googleapis.com/css?family=Reem+Kufi&amp;subset=arabic" rel="stylesheet">
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	</head>
+	<body>
+		<div class="form">
+			<form>
+				<div class="label">
+					<label>
+						Username
+						<i class="fas fa-user"></i>
+					</label>
+					<input placeholder="Username" name="Name" type="text" id="uname">
+					<span id="s1" style="color: red; font-size: 20px;"></span>
+				</div>
+				<div class="label">
+					<label>
+						Password
+						<i class="fas fa-unlock-alt"></i>
+					</label>
+					<input placeholder="Password" name="Password" type="password" id="pwd">
+					<span id="s2" style="color: red;"></span>
+				</div>
+				<input type="submit" value="Log In" onclick="return validate()">
+			</form>
+		</div>
+		<script src="js/login.js"></script>
+  </body>
+</html>

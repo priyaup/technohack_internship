@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body {
+    background: url(../images/img.jpeg) no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    font-style: italic;
+    margin: 3vw 1vw;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+h1 span {
+    color: #03A9F4;
+}
+
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+
+.form form {
+    max-width: 600px;
+    margin: 0 5vw;
+    background: rgba(10, 10, 10, 0.44);
+    padding: 3.5vw;
+    box-sizing: border-box;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 6px solid #03A9F4;
+    border-radius: 30px 0 0 30px;
+}
+
+.label {
+    margin-bottom: 1.5em;
+    flex-basis: 100%;
+    flex-basis: 100%;
+}
+
+.form label {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.form label i {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #03A9F4;
+    border-radius: 50%;
+    line-height: 1.9;
+    text-align: center;
+/*    font-weight: 5rem;*/
+}
+
+.label input[type="text"],
+.label input[type="password"] {
+    width: 100%;
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.form input[type="submit"] {
+    color: #fff;
+    background: #03A9F4;
+    border: none;
+    padding: 13px 0;
+    margin-top: 30px;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.5s all;
+    transition: 0.5s all;
+    transition: 0.5s all;
+    transition: 0.5s all;
+    transition: 0.5s all;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.49);
+}
+
+.form input[type="submit"]:hover {
+    background: #000;
+    transition: 0.5s all;
+}
+
+
+
+@media(max-width:1920px) {
+    h1 {
+        font-size: 3.5vw;
+    }
+}
+
+@media(max-width:1024px) {
+    h1 {
+        font-size: 4.5vw;
+    }
+}
+
+@media(max-width:800px) {
+    h1 {
+        font-size: 2.6em;
+    }
+}
+
+@media(max-width:480px) {
+    h1 {
+        font-size: 2.3em;
+    }
+    .form form {
+        padding: 7.5vw;
+    }
+    .footer p {
+        letter-spacing: 1px;
+    }
+}
+
+@media(max-width:414px) {
+    .label input[type="text"],
+    .label input[type="password"] {
+        font-size: 13px;
+        padding: 13px 15px;
+    }
+    .wthree-text ul li:nth-child(1),
+    .wthree-text ul li:nth-child(2) {
+        float: none;
+    }
+    .wthree-text ul li:nth-child(2) {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    .form form {
+        padding: 25px 14px;
+    }
+}
